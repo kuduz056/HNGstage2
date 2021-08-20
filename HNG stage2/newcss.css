@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: bisque;
+    margin:auto auto;
+    text-align: left;
+    font-size: 3em;
+}
+
+header{
+    text-align: left;
+    margin: 0 4rem 0 4rem;
+    font-size:2em;
+}
+img{
+    width:3em;
+    height:3em;
+    text-align: center;
+}
+header h1{
+    font-size:5em;
+    margin:1rem 0;
+  
+}
+header h2{
+    font-size:3em;
+    margin:0;
+    text-align: left;
+    
+}
+header h3{
+    font-size:1.5em;
+    
+}
+section#info{
+    background-color: rgb(241, 201, 153);
+    padding-left:4em;
+    padding-right:4em;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size:1.5em;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+section#info  i{
+    padding-right:0.5rem;
+     
+}
+section#experience_skills {
+    display:flex;
+    justify-content:center;
+    padding:2em;
+}
+div#left{
+ padding: 0 2em  0 0em;
+ font-size:1.5em;
+
+}
+div#right{
+    
+    font-size:1.5em; 
+}
+div#sks  {
+    
+    padding:3px;
+    display:grid;
+    font-size:1.2em;
+    grid-template-columns: auto auto;
+}
+
+div#sks p{
+    margin:0 3rem 3rem 0;
+    background-color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size:1.2em;
+    border-radius:5%;
+}
+div#Interest  div{
+display: grid;
+grid-template-columns: auto auto;
+
+
+}
+div#Interest  div p{
+    background-color: white;
+    margin-right:2rem;
+    
+    justify-content: left;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
